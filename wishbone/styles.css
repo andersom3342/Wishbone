@@ -29,6 +29,7 @@ header>nav>a{
         rotate: 90deg;
         justify-content: center;
         width: 5.2rem;
+        color: black;
     }
 .logo{
     width: 5rem;
@@ -118,4 +119,8 @@ h2{
     width: 8rem;
     display: block;
     margin: auto;
+}
+section span{
+    position: absolute;
+
 }
