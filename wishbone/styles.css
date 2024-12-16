@@ -119,8 +119,3 @@ h2{
     display: block;
     margin: auto;
 }
-.bingo{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-}
