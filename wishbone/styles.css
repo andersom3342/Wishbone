@@ -77,6 +77,7 @@ h3{
     border-style: solid;
     border-radius: 2rem;
     text-align: center;
+    
 
 }
 h2{
@@ -111,4 +112,15 @@ h2{
     display: block;
     margin: auto ;
     text-align: center;
+}
+.blog{
+    height: 10rem;
+    width: 8rem;
+    display: block;
+    margin: auto;
+}
+.bingo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
