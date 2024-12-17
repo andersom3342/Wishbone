@@ -122,5 +122,21 @@ h2{
 }
 section span{
     position: absolute;
-
 }
+.FAQS{
+    border-style: solid;
+    background-color: white;
+    height: auto;
+}
+li{
+    font-size: medium;
+    text-align: center;
+    
+}
+il{
+    color:#0097b2;
+    text-align: center;
+    font-size: small;
+}
+
+
