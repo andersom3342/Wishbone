@@ -26,7 +26,7 @@ header>nav>a{
     header>nav{
        display: flex;
         flex-direction: column;
-        rotate: 90deg;
+        transform: rotate(90deg);
         justify-content: center;
         width: 5.2rem;
         color: black;
@@ -50,6 +50,8 @@ p{
    border-width: .5rem;
    text-align: center;
    font-size: small;
+   margin: auto;
+  margin-top: 2rem;
    
 }
 .intro{
@@ -172,7 +174,7 @@ il{
         header>nav{
            display: flex;
             flex-direction: column;
-            rotate: 90deg;
+            transform: rotate(90deg);
             justify-content: center;
             width: 8rem;
             color: black;
@@ -306,7 +308,7 @@ il{
         font-size: x-large;
     }
 }
-@media(min-width:897){
+@media(min-width:897px){
     header{
         background-color: #0097b2;
         display: flex;
@@ -335,7 +337,7 @@ il{
         header>nav{
            display: flex;
             flex-direction: column;
-            rotate: 90deg;
+            transform: rotate(90deg);
             justify-content: center;
             width: 8rem;
             color: black;
@@ -435,9 +437,7 @@ il{
         display: block;
         margin: auto;
     }
-    section span{
-        position: absolute;
-    }
+    
     .FAQS{
         border-style: solid;
         background-color: white;
